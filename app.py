@@ -137,7 +137,7 @@ def load():
 
     trafficUrl = "https://data.cityofchicago.org/resource/kkgn-a2j4.json?$where=last_update%20between%20%272018-03-13%27%20and%20%272018-03-14%27&$limit=1500"
 
-    trafficUrl = (f"https://data.cityofchicago.org/resource/kkgn-a2j4.json?$where=last_update%20between%20%27{startDate}%27%20and%20%27{endDate}%27")
+    trafficUrl = (f"https://data.cityofchicago.org/resource/kkgn-a2j4.json?$where=last_update%20between%20%27{startDate}%27%20and%20%27{endDate}%27&$limit=1500")
 
     print(trafficUrl)
 
