@@ -14,3 +14,4 @@ SQLAlchemy==1.2.10
 Werkzeug==0.14.1
 gunicorn==19.7.1
 requests==0.11.1
+pymongo
