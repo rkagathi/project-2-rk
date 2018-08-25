@@ -182,7 +182,7 @@ def noload():
 @app.route("/history", methods=["GET", "POST"])
 def history():
     # historyURL = "https://teabraham.github.io/Assignments/aqsd3/"
-    https://teabraham.github.io/Assignments/aqidash/
+    # https://teabraham.github.io/Assignments/aqidash/
     
     return render_template("history.html", iframe="https://teabraham.github.io/Assignments/aqidash/")
   
