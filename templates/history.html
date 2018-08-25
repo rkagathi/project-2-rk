@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    
+        <!-- D3 JS -->
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    
+        <!-- Plotly JS -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        
+        <!-- Our CSS -->
+        <!-- <link rel="stylesheet" type="text/css" href="../static/css/style.css"> -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <form method="POST" action="/noload" role="form", name="noTAQform">
+            <div>
+                <input type="submit" value="Back" class="btn btn-info">                            
+            </div>
+        
+         
+        <iframe frameborder='0' noresize='noresize' style='position: absolute; background: transparent; width: 100%; height:100%;' src="{{ iframe }}" frameborder="0"></iframe>
+    </form>  
+</body>
+</html>
