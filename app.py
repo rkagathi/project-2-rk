@@ -122,7 +122,7 @@ def load():
 
 
     metaList = []
-    metaUrl = "https://data.cityofchicago.org/resource/8v9j-bter.json?$limit=2000"
+    metaUrl = "https://data.cityofchicago.org/resource/8v9j-bter.json?$limit=1500"
     response = requests.get(metaUrl)
     metaData = response.json()
 
