@@ -17,13 +17,33 @@
 </head>
 
 <body>
-    <form method="POST" action="/noload" role="form", name="noTAQform">
-            <div>
-                <input type="submit" value="Back" class="btn btn-info">                            
-            </div>
-        
-         
-        <iframe frameborder='0' noresize='noresize' style='position: absolute; background: transparent; width: 100%; height:100%;' src="{{ iframe }}" frameborder="0"></iframe>
+    <table>
+        <tr><td>
+                <div>
+ 
+                    <form method="POST" action="/home" role="form", name="homeform">
+                        <div>
+                            <input type="submit" value="Home" class="btn btn-info">                            
+                        </div>
+                    
+                    </form>   
+                </div>
+            </td>
+            <td>
+                <div>   
+                    <form method="POST" action="/noload" role="form", name="noTAQform">
+                        <div>
+                            <input type="submit" value="Back" class="btn btn-info">                            
+                        </div>
+                        
+                    </form>  
+                </div>
+                        
+            </td>
+        </tr>
+
+    </table>
+    <iframe frameborder='0' noresize='noresize' style='position: absolute; background: transparent; width: 100%; height:100%;' src="{{ iframe }}" frameborder="0"></iframe>
     </form>  
 </body>
 </html>

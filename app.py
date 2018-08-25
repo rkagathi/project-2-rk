@@ -63,6 +63,12 @@ def home():
     # return render_template("index.html")
     return render_template('form.html')
 
+@app.route("/home", methods=["GET", "POST"])
+def homeback():
+    """Render Home Page."""
+    # return render_template("index.html")
+    return render_template('form.html')    
+
 @app.route('/traffic.html')
 def main():
     return render_template('traffic.html')

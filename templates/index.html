@@ -30,14 +30,36 @@
           <iframe class="ifrm" title="Traffic Map" width="100%" src="traffic.html"></iframe>
         </div>
         <div class="map col-md-7 col-xs-12">
-            <form method="POST" action="/history" role="form", name="TAQform">
-              <br/>
-              <div>
 
-                  <input type="submit" value="View Historical Data" class="btn btn-info">
-            
-              </div>
-            </form>  
+            <table>
+                <tr><td>
+                        <div>
+         
+                            <form method="POST" action="/home" role="form", name="homeform">
+                                <div>
+                                    <input type="submit" value="Home" class="btn btn-info">                            
+                                </div>
+                            
+                            </form>   
+                        </div>
+                    </td>
+                    <td>
+                        <div>   
+                            <form method="POST" action="/history" role="form", name="TAQform">
+                             
+                              <div>
+                
+                                  <input type="submit" value="View Historical Data" class="btn btn-info">
+                            
+                              </div>
+                            </form>  
+                        </div>
+                                
+                    </td>
+                </tr>
+        
+            </table>
+
         </div>
       </div>
 

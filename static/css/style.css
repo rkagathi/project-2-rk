@@ -131,3 +131,7 @@ h2 {
 .leaflet-popup-content-wrapper, .leaflet-popup-content {
   font-size: 16;
 }
+
+th, td {
+  padding: 5px;
+}
